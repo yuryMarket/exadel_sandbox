@@ -1,0 +1,15 @@
+Issue 1:
+1)Connection time out:
+
+Check the availability of a server in the Internet by pinging an IP or a domain
+
+
+Check the availability of the 22 port by using 'telnet $server_ip 22' or 'curl $server_ip:22'
+ 
+Chek server:
+Chek Open SSH is installed  
+Check if firewall is correctly configured and port 22 is opened
+
+2)Issue 2 
+Access denied:
+Checking if the ssh key exists or correct or if you use password(not preferable way) check it
