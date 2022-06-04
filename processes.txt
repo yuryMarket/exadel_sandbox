@@ -1,0 +1,314 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.1 168312 13576 ?        Ss   11:12   0:02 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    11:12   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   11:12   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   11:12   0:00 [rcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   11:12   0:00 [kworker/0:0H-events_highpri]
+root           9  0.0  0.0      0     0 ?        I<   11:12   0:00 [mm_percpu_wq]
+root          10  0.0  0.0      0     0 ?        S    11:12   0:00 [rcu_tasks_rude_]
+root          11  0.0  0.0      0     0 ?        S    11:12   0:00 [rcu_tasks_trace]
+root          12  0.0  0.0      0     0 ?        S    11:12   0:00 [ksoftirqd/0]
+root          13  0.2  0.0      0     0 ?        I    11:12   0:13 [rcu_sched]
+root          14  0.0  0.0      0     0 ?        S    11:12   0:00 [migration/0]
+root          15  0.0  0.0      0     0 ?        S    11:12   0:00 [idle_inject/0]
+root          16  0.0  0.0      0     0 ?        S    11:12   0:00 [cpuhp/0]
+root          17  0.0  0.0      0     0 ?        S    11:12   0:00 [cpuhp/1]
+root          18  0.0  0.0      0     0 ?        S    11:12   0:00 [idle_inject/1]
+root          19  0.0  0.0      0     0 ?        S    11:12   0:00 [migration/1]
+root          20  0.0  0.0      0     0 ?        S    11:12   0:00 [ksoftirqd/1]
+root          22  0.0  0.0      0     0 ?        I<   11:12   0:00 [kworker/1:0H-kblockd]
+root          23  0.0  0.0      0     0 ?        S    11:12   0:00 [cpuhp/2]
+root          24  0.0  0.0      0     0 ?        S    11:12   0:00 [idle_inject/2]
+root          25  0.0  0.0      0     0 ?        S    11:12   0:00 [migration/2]
+root          26  0.0  0.0      0     0 ?        S    11:12   0:00 [ksoftirqd/2]
+root          28  0.0  0.0      0     0 ?        I<   11:12   0:00 [kworker/2:0H-events_highpri]
+root          29  0.0  0.0      0     0 ?        S    11:12   0:00 [cpuhp/3]
+root          30  0.0  0.0      0     0 ?        S    11:12   0:00 [idle_inject/3]
+root          31  0.0  0.0      0     0 ?        S    11:12   0:00 [migration/3]
+root          32  0.0  0.0      0     0 ?        S    11:12   0:00 [ksoftirqd/3]
+root          34  0.0  0.0      0     0 ?        I<   11:12   0:00 [kworker/3:0H-kblockd]
+root          35  0.0  0.0      0     0 ?        S    11:12   0:00 [cpuhp/4]
+root          36  0.0  0.0      0     0 ?        S    11:12   0:00 [idle_inject/4]
+root          37  0.0  0.0      0     0 ?        S    11:12   0:00 [migration/4]
+root          38  0.0  0.0      0     0 ?        S    11:12   0:00 [ksoftirqd/4]
+root          40  0.0  0.0      0     0 ?        I<   11:12   0:00 [kworker/4:0H-events_highpri]
+root          41  0.0  0.0      0     0 ?        S    11:12   0:00 [cpuhp/5]
+root          42  0.0  0.0      0     0 ?        S    11:12   0:00 [idle_inject/5]
+root          43  0.0  0.0      0     0 ?        S    11:12   0:00 [migration/5]
+root          44  1.1  0.0      0     0 ?        S    11:12   0:59 [ksoftirqd/5]
+root          46  0.0  0.0      0     0 ?        I<   11:12   0:00 [kworker/5:0H-events_highpri]
+root          47  0.0  0.0      0     0 ?        S    11:12   0:00 [cpuhp/6]
+root          48  0.0  0.0      0     0 ?        S    11:12   0:00 [idle_inject/6]
+root          49  0.0  0.0      0     0 ?        S    11:12   0:00 [migration/6]
+root          50  0.0  0.0      0     0 ?        S    11:12   0:00 [ksoftirqd/6]
+root          52  0.0  0.0      0     0 ?        I<   11:12   0:00 [kworker/6:0H-events_highpri]
+root          53  0.0  0.0      0     0 ?        S    11:12   0:00 [cpuhp/7]
+root          54  0.0  0.0      0     0 ?        S    11:12   0:00 [idle_inject/7]
+root          55  0.0  0.0      0     0 ?        S    11:12   0:00 [migration/7]
+root          56  0.0  0.0      0     0 ?        S    11:12   0:00 [ksoftirqd/7]
+root          58  0.0  0.0      0     0 ?        I<   11:12   0:00 [kworker/7:0H-events_highpri]
+root          59  0.0  0.0      0     0 ?        S    11:12   0:00 [kdevtmpfs]
+root          60  0.0  0.0      0     0 ?        I<   11:12   0:00 [netns]
+root          61  0.0  0.0      0     0 ?        I<   11:12   0:00 [inet_frag_wq]
+root          62  0.0  0.0      0     0 ?        S    11:12   0:00 [kauditd]
+root          63  0.0  0.0      0     0 ?        S    11:12   0:00 [khungtaskd]
+root          64  0.0  0.0      0     0 ?        S    11:12   0:00 [oom_reaper]
+root          65  0.0  0.0      0     0 ?        I<   11:12   0:00 [writeback]
+root          66  0.0  0.0      0     0 ?        S    11:12   0:00 [kcompactd0]
+root          67  0.0  0.0      0     0 ?        SN   11:12   0:00 [ksmd]
+root          68  0.0  0.0      0     0 ?        SN   11:12   0:00 [khugepaged]
+root          75  0.0  0.0      0     0 ?        I    11:12   0:01 [kworker/2:1-mm_percpu_wq]
+root         117  0.0  0.0      0     0 ?        I<   11:12   0:00 [kintegrityd]
+root         118  0.0  0.0      0     0 ?        I<   11:12   0:00 [kblockd]
+root         119  0.0  0.0      0     0 ?        I<   11:12   0:00 [blkcg_punt_bio]
+root         121  0.0  0.0      0     0 ?        I<   11:12   0:00 [tpm_dev_wq]
+root         122  0.0  0.0      0     0 ?        I<   11:12   0:00 [ata_sff]
+root         123  0.0  0.0      0     0 ?        I<   11:12   0:00 [md]
+root         124  0.0  0.0      0     0 ?        I<   11:12   0:00 [edac-poller]
+root         125  0.0  0.0      0     0 ?        I<   11:12   0:00 [devfreq_wq]
+root         126  0.0  0.0      0     0 ?        S    11:12   0:00 [watchdogd]
+root         128  0.0  0.0      0     0 ?        I<   11:12   0:02 [kworker/6:1H-events_highpri]
+root         130  0.0  0.0      0     0 ?        S    11:12   0:00 [kswapd0]
+root         131  0.0  0.0      0     0 ?        S    11:12   0:00 [ecryptfs-kthrea]
+root         133  0.0  0.0      0     0 ?        I<   11:12   0:00 [kthrotld]
+root         134  0.0  0.0      0     0 ?        S    11:12   0:00 [irq/122-aerdrv]
+root         135  0.0  0.0      0     0 ?        S    11:12   0:00 [irq/123-aerdrv]
+root         136  0.0  0.0      0     0 ?        I<   11:12   0:00 [acpi_thermal_pm]
+root         138  0.0  0.0      0     0 ?        I<   11:12   0:00 [vfio-irqfd-clea]
+root         139  0.0  0.0      0     0 ?        I<   11:12   0:00 [mld]
+root         140  0.0  0.0      0     0 ?        I<   11:12   0:00 [ipv6_addrconf]
+root         150  0.0  0.0      0     0 ?        I<   11:12   0:00 [kstrp]
+root         155  0.0  0.0      0     0 ?        I<   11:12   0:00 [zswap-shrink]
+root         164  0.0  0.0      0     0 ?        I<   11:12   0:00 [charger_manager]
+root         186  0.0  0.0      0     0 ?        I<   11:12   0:00 [kworker/0:1H-events_highpri]
+root         211  0.0  0.0      0     0 ?        I<   11:12   0:00 [kworker/2:1H-kblockd]
+root         224  0.0  0.0      0     0 ?        S    11:12   0:00 [scsi_eh_0]
+root         225  0.0  0.0      0     0 ?        I<   11:12   0:00 [scsi_tmf_0]
+root         226  0.0  0.0      0     0 ?        S    11:12   0:00 [scsi_eh_1]
+root         227  0.0  0.0      0     0 ?        I<   11:12   0:00 [scsi_tmf_1]
+root         228  0.0  0.0      0     0 ?        S    11:12   0:00 [scsi_eh_2]
+root         229  0.0  0.0      0     0 ?        I<   11:12   0:00 [scsi_tmf_2]
+root         232  0.0  0.0      0     0 ?        I<   11:12   0:01 [kworker/7:1H-events_highpri]
+root         234  0.3  0.0      0     0 ?        S    11:12   0:16 [irq/109-ELAN130]
+root         237  0.0  0.0      0     0 ?        I<   11:12   0:00 [kworker/3:1H-kblockd]
+root         241  0.0  0.0      0     0 ?        S    11:12   0:00 [spi0]
+root         242  0.0  0.0      0     0 ?        I<   11:12   0:00 [kworker/5:1H-events_highpri]
+root         243  0.0  0.0      0     0 ?        I<   11:12   0:00 [kworker/1:1H-events_highpri]
+root         263  0.0  0.0      0     0 ?        S    11:12   0:00 [jbd2/sda4-8]
+root         264  0.0  0.0      0     0 ?        I<   11:12   0:00 [ext4-rsv-conver]
+root         277  0.0  0.0      0     0 ?        I    11:12   0:02 [kworker/0:2-events]
+root         305  0.0  1.0 167308 85092 ?        S<s  11:12   0:01 /lib/systemd/systemd-journald
+root         333  0.0  0.0      0     0 ?        I<   11:12   0:00 [kworker/4:1H-kblockd]
+root         339  0.0  0.0      0     0 ?        I<   11:12   0:00 [ipmi-msghandler]
+root         342  0.0  0.0      0     0 ?        I    11:12   0:01 [kworker/4:2-events]
+root         345  0.6  0.0      0     0 ?        I    11:12   0:32 [kworker/5:3-events]
+root         370  0.0  0.0  27480  7880 ?        Ss   11:12   0:01 /lib/systemd/systemd-udevd
+root         405  0.0  0.0      0     0 ?        I<   11:12   0:00 [asus_wireless_w]
+root         406  0.0  0.0      0     0 ?        I<   11:12   0:00 [led_workqueue]
+root         422  0.0  0.0      0     0 ?        I<   11:12   0:00 [cfg80211]
+root         433  0.0  0.0      0     0 ?        S    11:12   0:00 [irq/126-mei_me]
+root         444  0.0  0.0      0     0 ?        I<   11:12   0:00 [cryptd]
+root         453  0.2  0.0      0     0 ?        S    11:12   0:10 [irq/127-iwlwifi]
+root         566  0.0  0.0      0     0 ?        S    11:12   0:00 [card0-crtc0]
+root         567  0.0  0.0      0     0 ?        S    11:12   0:00 [card0-crtc1]
+root         568  0.0  0.0      0     0 ?        S    11:12   0:00 [card0-crtc2]
+root         785  0.0  0.0  20524   500 ?        Ss   11:12   0:00 /sbin/mount.ntfs /dev/sda3 /windows -o rw,umask=007,gid=46
+root         786  0.0  0.0      0     0 ?        S    11:12   0:00 [jbd2/sda5-8]
+root         787  0.0  0.0      0     0 ?        I<   11:12   0:00 [ext4-rsv-conver]
+systemd+     919  0.2  0.0  14776  6244 ?        Ss   11:12   0:11 /lib/systemd/systemd-oomd
+systemd+     920  0.0  0.1  25612 13976 ?        Ss   11:12   0:01 /lib/systemd/systemd-resolved
+systemd+     921  0.0  0.0  89324  6560 ?        Ssl  11:12   0:00 /lib/systemd/systemd-timesyncd
+root         926  0.0  0.0 251572  8000 ?        Ssl  11:12   0:00 /usr/libexec/accounts-daemon
+root         927  0.0  0.0   2812  1180 ?        Ss   11:12   0:00 /usr/sbin/acpid
+avahi        929  0.0  0.0   7624  3652 ?        Ss   11:12   0:00 avahi-daemon: running [yury-X510UNR.local]
+root         930  0.0  0.0  10624  5136 ?        Ss   11:12   0:00 /usr/lib/bluetooth/bluetoothd
+root         931  0.0  0.0  20680  3076 ?        Ss   11:12   0:00 /usr/sbin/cron -f -P
+message+     932  0.0  0.0  11116  6832 ?        Ss   11:12   0:02 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         933  0.0  0.2 272996 19680 ?        Ssl  11:12   0:02 /usr/sbin/NetworkManager --no-daemon
+root         939  0.0  0.0  82768  3884 ?        Ssl  11:12   0:00 /usr/sbin/irqbalance --foreground
+root         940  0.0  0.2  52324 20760 ?        Ss   11:12   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         941  0.0  0.1 254764 11540 ?        Ssl  11:12   0:00 /usr/libexec/polkitd --no-debug
+root         942  0.0  0.1 251612  8028 ?        Ssl  11:12   0:00 /usr/libexec/power-profiles-daemon
+syslog       943  0.0  0.0 222400  5708 ?        Ssl  11:12   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         964  0.1  0.5 1613124 43004 ?       Ssl  11:12   0:07 /usr/lib/snapd/snapd
+root         965  0.0  0.0 247736  6844 ?        Ssl  11:12   0:00 /usr/libexec/switcheroo-control
+root         966  0.0  0.0  48140  7992 ?        Ss   11:12   0:00 /lib/systemd/systemd-logind
+root         967  0.0  0.1 287340 10908 ?        Ssl  11:12   0:02 /usr/sbin/thermald --systemd --dbus-enable --adaptive
+root         968  0.0  0.1 393552 14596 ?        Ssl  11:12   0:01 /usr/libexec/udisks2/udisksd
+root         969  0.0  0.1  17828 11028 ?        Ss   11:12   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        973  0.0  0.0   7440   344 ?        S    11:12   0:00 avahi-daemon: chroot helper
+root        1037  0.0  0.1 253964  9252 ?        Ssl  11:12   0:00 /usr/libexec/upowerd
+root        1044  0.0  0.1 317004 12148 ?        Ssl  11:12   0:00 /usr/sbin/ModemManager
+root        1058  0.0  0.1  84324 13972 ?        Ss   11:12   0:00 /usr/sbin/cupsd -l
+jenkins     1059  1.0  5.4 7894288 436880 ?      Ssl  11:12   0:51 /usr/bin/java -Djava.awt.headless=true -jar /usr/share/java/jenkins.war --webroot=/var/cache/jenkins/war --httpPort=8080
+root        1065  0.0  0.2 129308 23272 ?        Ssl  11:12   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root        1091  0.0  0.6 1725600 52568 ?       Ssl  11:12   0:02 /usr/bin/containerd
+root        1125  0.0  0.1  15416  8912 ?        Ss   11:12   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root        1157  0.0  0.0  55764  1712 ?        Ss   11:12   0:00 nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+www-data    1158  0.0  0.0  56072  5516 ?        S    11:12   0:00 nginx: worker process
+www-data    1159  0.0  0.0  56072  5516 ?        S    11:12   0:00 nginx: worker process
+www-data    1160  0.0  0.0  56072  5516 ?        S    11:12   0:00 nginx: worker process
+www-data    1161  0.0  0.0  56072  5516 ?        S    11:12   0:00 nginx: worker process
+www-data    1162  0.0  0.0  56072  5516 ?        S    11:12   0:00 nginx: worker process
+www-data    1163  0.0  0.0  56072  5516 ?        S    11:12   0:00 nginx: worker process
+www-data    1164  0.0  0.0  56072  5516 ?        S    11:12   0:00 nginx: worker process
+www-data    1165  0.0  0.0  56072  5516 ?        S    11:12   0:00 nginx: worker process
+root        1173  0.0  0.1 172612 11476 ?        Ssl  11:12   0:00 /usr/sbin/cups-browsed
+kernoops    1180  0.0  0.0  13080   456 ?        Ss   11:12   0:00 /usr/sbin/kerneloops --test
+kernoops    1182  0.0  0.0  13080  2544 ?        Ss   11:12   0:00 /usr/sbin/kerneloops
+root        1227  0.0  0.1 252584  9696 ?        Ssl  11:13   0:00 /usr/sbin/gdm3
+root        1243  0.0  0.1 182008 11132 ?        Sl   11:13   0:00 gdm-session-worker [pam/gdm-autologin]
+root        1271  0.0  0.9 1752864 79964 ?       Ssl  11:13   0:02 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+yury        1290  0.0  0.1  19292 12128 ?        Ss   11:13   0:01 /lib/systemd/systemd --user
+yury        1291  0.0  0.0 170036  4224 ?        S    11:13   0:00 (sd-pam)
+yury        1307  0.0  0.0  51040  6820 ?        S<sl 11:13   0:00 /usr/bin/pipewire
+yury        1308  0.0  0.0  34796  6476 ?        Ssl  11:13   0:00 /usr/bin/pipewire-media-session
+yury        1309  0.0  0.3 2560220 30996 ?       S<sl 11:13   0:02 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+yury        1347  0.0  0.0  10136  6304 ?        Ss   11:13   0:01 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+yury        1349  0.0  0.1 399720  8184 ?        SLl  11:13   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+rtkit       1351  0.0  0.0 154000  1564 ?        SNsl 11:13   0:00 /usr/libexec/rtkit-daemon
+yury        1376  0.0  0.1 252072  8680 ?        Ssl  11:13   0:00 /usr/libexec/gvfsd
+yury        1377  0.0  0.0 548472  7544 ?        Ssl  11:13   0:00 /usr/libexec/xdg-document-portal
+yury        1384  0.0  0.0 247716  5480 ?        Ssl  11:13   0:00 /usr/libexec/xdg-permission-store
+root        1390  0.0  0.0   2792  1008 ?        Ss   11:13   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+yury        1421  0.0  0.0 380884  5960 ?        Sl   11:13   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+yury        1470  0.0  0.3 644924 28152 ?        SNsl 11:13   0:01 /usr/libexec/tracker-miner-fs-3
+root        1481  0.0  0.0      0     0 ?        S<   11:13   0:00 [krfcommd]
+yury        1553  0.0  0.0 173608  6200 tty2     Ssl+ 11:13   0:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+yury        1577  0.0  0.1 234256 15464 tty2     Sl+  11:13   0:00 /usr/libexec/gnome-session-binary --session=ubuntu
+yury        1651  0.0  0.1 327672 10728 ?        Ssl  11:13   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+yury        1665  0.0  0.1 326628  8392 ?        Ssl  11:13   0:00 /usr/libexec/gvfs-afc-volume-monitor
+yury        1677  0.0  0.0 248856  7436 ?        Ssl  11:13   0:00 /usr/libexec/gvfs-goa-volume-monitor
+yury        1681  0.0  0.9 720656 75132 ?        SLl  11:13   0:01 /usr/libexec/goa-daemon
+yury        1715  0.0  0.8 1284048 69120 ?       Ssl  11:13   0:00 /usr/libexec/gnome-remote-desktop-daemon
+yury        1717  0.0  0.0 103088  5100 ?        Ssl  11:13   0:00 /usr/libexec/gnome-session-ctl --monitor
+yury        1736  0.0  0.1 349620 15140 ?        Sl   11:13   0:00 /usr/libexec/goa-identity-service
+yury        1741  0.0  0.0 247652  6624 ?        Ssl  11:13   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+yury        1752  0.0  0.0 248744  7104 ?        Ssl  11:13   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+yury        1824  0.0  0.2 530584 17776 ?        Ssl  11:13   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+yury        2133  0.0  0.0 309616  7508 ?        Sl   11:13   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+yury        2137 20.5  3.7 5948036 300160 ?      Ssl  11:13  17:22 /usr/bin/gnome-shell
+yury        2143  0.0  0.0   8560  4512 ?        S    11:13   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+yury        2220  0.0  0.2 861680 21660 ?        Sl   11:13   0:00 /usr/libexec/gnome-shell-calendar-server
+yury        2228  0.0  0.4 956228 33544 ?        Ssl  11:13   0:00 /usr/libexec/evolution-source-registry
+geoclue     2232  0.0  0.3 529096 26312 ?        Ssl  11:13   0:01 /usr/libexec/geoclue
+root        2238  0.2  0.7 458316 58444 ?        Ssl  11:13   0:13 /usr/libexec/packagekitd
+yury        2241  0.0  0.1 326476  8644 ?        Sl   11:13   0:00 /usr/libexec/gvfsd-trash --spawner :1.5 /org/gtk/gvfs/exec_spaw/0
+yury        2253  0.0  0.3 2876824 28000 ?       Sl   11:13   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+yury        2255  0.0  0.0 162676  7388 ?        Sl   11:13   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+yury        2259  0.0  0.0   2888   984 ?        Ss   11:13   0:00 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+yury        2261  0.0  0.0 321656  7100 ?        Ssl  11:13   0:00 /usr/libexec/gsd-a11y-settings
+yury        2263  0.0  0.3 686840 27124 ?        Ssl  11:13   0:00 /usr/libexec/gsd-color
+yury        2264  0.3  0.1 326060 11956 ?        Sl   11:13   0:18 /usr/bin/ibus-daemon --panel disable
+yury        2266  0.0  0.2 386700 16484 ?        Ssl  11:13   0:00 /usr/libexec/gsd-datetime
+yury        2268  0.0  0.0 323152  7676 ?        Ssl  11:13   0:00 /usr/libexec/gsd-housekeeping
+yury        2270  0.0  0.2 425608 22108 ?        Ssl  11:13   0:00 /usr/libexec/gsd-keyboard
+yury        2273  0.0  0.3 727848 26564 ?        Ssl  11:13   0:00 /usr/libexec/gsd-media-keys
+yury        2274  0.0  0.3 726764 28084 ?        Ssl  11:13   0:00 /usr/libexec/gsd-power
+yury        2275  0.0  0.1 261076 11620 ?        Ssl  11:13   0:00 /usr/libexec/gsd-print-notifications
+yury        2276  0.0  0.0 469084  6628 ?        Ssl  11:13   0:00 /usr/libexec/gsd-rfkill
+yury        2277  0.0  0.0 321248  6584 ?        Ssl  11:13   0:00 /usr/libexec/gsd-screensaver-proxy
+yury        2278  0.0  0.1 477180 10848 ?        Ssl  11:13   0:00 /usr/libexec/gsd-sharing
+yury        2279  0.0  0.1 397268  8192 ?        Ssl  11:13   0:00 /usr/libexec/gsd-smartcard
+yury        2280  0.0  0.1 330572  9284 ?        Ssl  11:13   0:00 /usr/libexec/gsd-sound
+yury        2281  0.0  0.2 352432 22372 ?        Ssl  11:13   0:00 /usr/libexec/gsd-wacom
+yury        2357  0.0  0.0 232260  6732 ?        Sl   11:13   0:00 /usr/libexec/gsd-disk-utility-notify
+yury        2358  0.0  0.8 1017724 66036 ?       Sl   11:13   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+yury        2381  0.0  0.1 353584 15360 ?        Sl   11:13   0:00 /usr/libexec/gsd-printer
+yury        2420  0.1  2.2 1387116 183872 ?      Sl   11:13   0:09 /snap/snap-store/582/usr/bin/snap-store --gapplication-service
+yury        2444  0.0  0.0 248504  7480 ?        Sl   11:13   0:00 /usr/libexec/ibus-dconf
+yury        2455  0.0  0.3 359064 28988 ?        Sl   11:13   0:04 /usr/libexec/ibus-extension-gtk3
+yury        2460  0.0  0.0 396040  7980 ?        Sl   11:13   0:01 /usr/libexec/ibus-portal
+yury        2510  0.0  0.0 157056  5864 ?        Ssl  11:13   0:00 /usr/libexec/dconf-service
+yury        2556  0.0  0.0 174276  7000 ?        Ssl  11:13   0:00 /usr/libexec/gvfsd-metadata
+yury        2571  0.1  0.0 174672  7592 ?        Sl   11:13   0:05 /usr/libexec/ibus-engine-simple
+yury        2584  0.0  0.7 1690964 58464 ?       Ssl  11:13   0:02 /usr/libexec/evolution-calendar-factory
+yury        2645  0.0  0.5 1620736 46792 ?       Ssl  11:13   0:02 /usr/bin/yandex-disk --tag="1 8 9 12 15 16 19" --proxy="no" --no-daemon="true" --dir="/home/yury/Yandex.Disk" --auth="/home/yury/.config/yandex-disk/passwd"
+yury        2664  0.0  0.3 691648 28952 ?        Ssl  11:13   0:00 /usr/libexec/evolution-addressbook-factory
+yury        2694  0.0  0.8 3143184 67668 ?       Sl   11:13   0:03 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com -M 0 -D 0:0:1920:1080:1:27:70:0:0:0
+yury        2726  0.0  0.3 2942504 27476 ?       Sl   11:13   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+colord      2750  0.0  0.1 256856 13408 ?        Ssl  11:13   0:00 /usr/libexec/colord
+yury        2754  0.0  0.1 635004 14868 ?        Ssl  11:13   0:00 /usr/libexec/xdg-desktop-portal
+yury        2777  0.0  0.3 739768 29744 ?        Ssl  11:13   0:00 /usr/libexec/xdg-desktop-portal-gnome
+yury        2795  0.0  0.3 355788 26368 ?        Ssl  11:13   0:00 /usr/libexec/xdg-desktop-portal-gtk
+root        2843  0.0  0.9 451052 79020 ?        Ssl  11:14   0:03 /usr/libexec/fwupd/fwupd
+yury        2913  0.0  0.3 505200 30472 ?        Sl   11:14   0:00 update-notifier
+yury        3192  1.0  1.1 855204 89764 ?        Sl   11:14   0:50 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.HIM3M1 -listen 4 -listen 5 -displayfd 6 -initfd 7
+yury        3212  0.0  0.8 1036008 69308 ?       Ssl  11:14   0:00 /usr/libexec/gsd-xsettings
+yury        3227  0.8  4.6 1197796 372704 ?      SLl  11:14   0:44 telegram-desktop --
+yury        3334  0.0  1.7 582624 137228 ?       SNl  11:14   0:04 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
+yury        3340  0.0  0.3 205452 25564 ?        Sl   11:14   0:00 /usr/libexec/ibus-x11
+yury        3713  0.0  0.3 448140 25152 ?        Sl   11:16   0:00 /usr/libexec/gvfsd-google --spawner :1.5 /org/gtk/gvfs/exec_spaw/1
+yury        5940  0.0  0.7 1083164 59388 ?       Sl   11:17   0:00 /usr/bin/gnome-calendar --gapplication-service
+yury        6200  1.1  1.9 23822992 153180 ?     SLl  11:17   0:57 /snap/skype/211/usr/share/skypeforlinux/skypeforlinux
+root        6395  0.0  0.0      0     0 ?        I    11:17   0:00 [kworker/6:0-cgroup_destroy]
+yury        6403  0.0  0.5 354988 42496 ?        S    11:17   0:00 /snap/skype/211/usr/share/skypeforlinux/skypeforlinux --type=zygote --no-zygote-sandbox
+yury        6404  0.0  0.5 354988 42300 ?        S    11:17   0:00 /snap/skype/211/usr/share/skypeforlinux/skypeforlinux --type=zygote
+yury        6406  0.0  0.0 354988  7392 ?        S    11:17   0:00 /snap/skype/211/usr/share/skypeforlinux/skypeforlinux --type=zygote
+yury        6419  0.0  0.0 171352  1684 ?        Sl   11:17   0:00 /snap/skype/211/usr/share/skypeforlinux/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/yury/snap/skype/211/.config/skypeforlinux/Crashpad --url=appcenter://generic?aid=70b7a841-531e-4f9a-9b55-ff40f9d0fb67&iid=73531d42-39c9-4abb-1a59-755844f46af0&uid=73531d42-39c9-4abb-1a59-755844f46af0 --annotation=_companyName=Skype --annotation=_productName=skypeforlinux --annotation=_version=8.83.0.411 --annotation=prod=Electron --annotation=ver=15.4.0 --initial-client-fd=43 --shared-client-connection
+yury        6437  1.0  1.0 1258164 86972 ?       Sl   11:17   0:50 /snap/skype/211/usr/share/skypeforlinux/skypeforlinux --type=gpu-process --field-trial-handle=18038649790817377007,15678908163980401270,131072 --disable-features=SpareRendererForSitePerProcess --enable-crashpad --crashpad-handler-pid=6419 --enable-crash-reporter=d752c99a-29ba-4bf9-b3b2-a2130342f2ec,no_channel --user-data-dir=/home/yury/snap/skype/211/.config/skypeforlinux --gpu-preferences=UAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAGAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files
+yury        6441  0.2  0.7 949188 61484 ?        Sl   11:17   0:10 /snap/skype/211/usr/share/skypeforlinux/skypeforlinux --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=18038649790817377007,15678908163980401270,131072 --disable-features=SpareRendererForSitePerProcess --lang=en-GB --service-sandbox-type=none --enable-crashpad --crashpad-handler-pid=6419 --enable-crash-reporter=d752c99a-29ba-4bf9-b3b2-a2130342f2ec,no_channel --user-data-dir=/home/yury/snap/skype/211/.config/skypeforlinux --shared-files=v8_context_snapshot_data:100
+yury        6466  0.0  0.3 1015064 25584 ?       Sl   11:17   0:00 /usr/bin/snap userd
+yury        6491  1.3  3.9 29867952 316248 ?     Sl   11:17   1:03 /snap/skype/211/usr/share/skypeforlinux/skypeforlinux --type=renderer --enable-crashpad --crashpad-handler-pid=6419 --enable-crash-reporter=d752c99a-29ba-4bf9-b3b2-a2130342f2ec,no_channel --user-data-dir=/home/yury/snap/skype/211/.config/skypeforlinux --app-path=/snap/skype/211/usr/share/skypeforlinux/resources/app.asar --no-sandbox --no-zygote --autoplay-policy=no-user-gesture-required --disable-background-timer-throttling --ms-disable-indexeddb-transaction-timeout --field-trial-handle=18038649790817377007,15678908163980401270,131072 --disable-features=SpareRendererForSitePerProcess --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=4 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --skype-process-type=Main --skype-window-id=__MAIN_ROOT_VIEW_ID__
+yury        6825  0.0  0.3 308652 27524 ?        Ssl  11:18   0:00 /snap/snapd-desktop-integration/14/bin/snapd-desktop-integration
+root        7102  0.3  0.0      0     0 ?        I<   11:22   0:16 [kworker/u17:0-rb_allocator]
+root        7116  0.0  0.0      0     0 ?        I    11:24   0:00 [kworker/5:1]
+yury        7128  3.1  3.1 17322792 254328 ?     SLl  11:25   2:18 /opt/google/chrome/chrome --enable-crashpad
+yury        7134  0.0  0.0  19696  1036 ?        S    11:25   0:00 cat
+yury        7135  0.0  0.0  19696  1000 ?        S    11:25   0:00 cat
+yury        7137  0.0  0.0 16798544 3368 ?       Sl   11:25   0:00 /opt/google/chrome/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/yury/.config/google-chrome/Crash Reports --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 22.04 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=101.0.4951.64 --initial-client-fd=5 --shared-client-connection
+yury        7139  0.0  0.0 16790332 1580 ?       Sl   11:25   0:00 /opt/google/chrome/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/yury/.config/google-chrome/Crash Reports --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 22.04 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=101.0.4951.64 --initial-client-fd=4 --shared-client-connection
+yury        7145  0.0  0.7 17058236 57132 ?      S    11:25   0:00 /opt/google/chrome/chrome --type=zygote --no-zygote-sandbox --enable-crashpad --crashpad-handler-pid=7137 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --enable-crashpad
+yury        7146  0.0  0.7 17058224 58204 ?      S    11:25   0:00 /opt/google/chrome/chrome --type=zygote --enable-crashpad --crashpad-handler-pid=7137 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --enable-crashpad
+yury        7147  0.0  0.0 16803212 7628 ?       S    11:25   0:00 /opt/google/chrome/nacl_helper
+yury        7150  0.0  0.2 17058248 16384 ?      S    11:25   0:00 /opt/google/chrome/chrome --type=zygote --enable-crashpad --crashpad-handler-pid=7137 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --enable-crashpad
+yury        7170  1.6  2.1 17599680 172828 ?     Sl   11:25   1:11 /opt/google/chrome/chrome --type=gpu-process --enable-crashpad --crashpad-handler-pid=7137 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --gpu-preferences=WAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=0,i,17012797439457999386,7359883041438337888,131072
+yury        7174  0.9  1.3 17128892 108048 ?     Sl   11:25   0:42 /opt/google/chrome/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-GB --service-sandbox-type=none --enable-crashpad --crashpad-handler-pid=7137 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,17012797439457999386,7359883041438337888,131072 --enable-crashpad
+yury        7206  0.0  0.5 17099628 47492 ?      Sl   11:25   0:00 /opt/google/chrome/chrome --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-GB --service-sandbox-type=utility --enable-crashpad --crashpad-handler-pid=7137 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,17012797439457999386,7359883041438337888,131072
+yury        7301  0.3  1.3 25714924 107376 ?     Sl   11:25   0:16 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=7137 --enable-crash-reporter=, --extension-process --disable-client-side-phishing-detection --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --launch-time-ticks=826869905 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,17012797439457999386,7359883041438337888,131072
+yury        7318  0.0  1.2 25716356 103108 ?     Sl   11:26   0:00 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=7137 --enable-crash-reporter=, --disable-client-side-phishing-detection --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8 --launch-time-ticks=830393413 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,17012797439457999386,7359883041438337888,131072
+yury        7356  0.4  1.9 25728948 155672 ?     Sl   11:26   0:18 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=7137 --enable-crash-reporter=, --disable-client-side-phishing-detection --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=49 --launch-time-ticks=833525789 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,17012797439457999386,7359883041438337888,131072
+yury        7436  0.0  1.1 25707256 92156 ?      Sl   11:26   0:00 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=7137 --enable-crash-reporter=, --disable-client-side-phishing-detection --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=60 --launch-time-ticks=839789438 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,17012797439457999386,7359883041438337888,131072
+yury        7449  0.0  1.2 25721816 101496 ?     Sl   11:26   0:00 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=7137 --enable-crash-reporter=, --disable-client-side-phishing-detection --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=61 --launch-time-ticks=839898764 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,17012797439457999386,7359883041438337888,131072
+yury        7471  0.0  1.8 25729524 145648 ?     Sl   11:26   0:03 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=7137 --enable-crash-reporter=, --disable-client-side-phishing-detection --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=53 --launch-time-ticks=841539744 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,17012797439457999386,7359883041438337888,131072
+yury        7472  0.0  1.6 25708252 130656 ?     Sl   11:26   0:01 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=7137 --enable-crash-reporter=, --disable-client-side-phishing-detection --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=52 --launch-time-ticks=841544210 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,17012797439457999386,7359883041438337888,131072
+yury        7478  0.4  2.8 25768460 228448 ?     Sl   11:26   0:19 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=7137 --enable-crash-reporter=, --disable-client-side-phishing-detection --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=48 --launch-time-ticks=841550682 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,17012797439457999386,7359883041438337888,131072
+yury        7527  0.0  1.3 25707272 112108 ?     Sl   11:26   0:01 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=7137 --enable-crash-reporter=, --disable-client-side-phishing-detection --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=63 --launch-time-ticks=842366775 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,17012797439457999386,7359883041438337888,131072
+yury        7557  1.5  4.5 25747968 366940 ?     Sl   11:26   1:05 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=7137 --enable-crash-reporter=, --disable-client-side-phishing-detection --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=36 --launch-time-ticks=842772131 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,17012797439457999386,7359883041438337888,131072
+yury        7594  0.0  1.1 25706876 95804 ?      Sl   11:26   0:00 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=7137 --enable-crash-reporter=, --disable-client-side-phishing-detection --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=64 --launch-time-ticks=844691148 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,17012797439457999386,7359883041438337888,131072
+yury        7621  0.2  2.1 29962416 176136 ?     Sl   11:26   0:08 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=7137 --enable-crash-reporter=, --disable-client-side-phishing-detection --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=50 --launch-time-ticks=844848275 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,17012797439457999386,7359883041438337888,131072
+yury        7670  0.1  2.0 29911360 165780 ?     Sl   11:26   0:06 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=7137 --enable-crash-reporter=, --disable-client-side-phishing-detection --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=45 --launch-time-ticks=847849976 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,17012797439457999386,7359883041438337888,131072
+yury        7693  0.0  1.1 25706728 91360 ?      Sl   11:26   0:00 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=7137 --enable-crash-reporter=, --extension-process --disable-client-side-phishing-detection --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=67 --launch-time-ticks=850688952 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,17012797439457999386,7359883041438337888,131072
+yury        7706  0.1  2.0 25760992 162564 ?     Sl   11:26   0:06 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=7137 --enable-crash-reporter=, --disable-client-side-phishing-detection --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=39 --launch-time-ticks=850861797 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,17012797439457999386,7359883041438337888,131072
+yury        7732  0.3  2.3 25718484 185168 ?     Sl   11:26   0:14 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=7137 --enable-crash-reporter=, --disable-client-side-phishing-detection --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=40 --launch-time-ticks=851170036 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,17012797439457999386,7359883041438337888,131072
+yury        7745  0.2  2.3 25750820 186920 ?     Sl   11:26   0:11 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=7137 --enable-crash-reporter=, --disable-client-side-phishing-detection --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=35 --launch-time-ticks=851842876 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,17012797439457999386,7359883041438337888,131072
+yury        7833  0.0  0.8 17361260 71520 ?      Sl   11:26   0:00 /opt/google/chrome/chrome --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-GB --service-sandbox-type=none --enable-crashpad --crashpad-handler-pid=7137 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,17012797439457999386,7359883041438337888,131072 --enable-crashpad
+yury        7865  0.0  1.7 25750208 139132 ?     Sl   11:26   0:02 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=7137 --enable-crash-reporter=, --disable-client-side-phishing-detection --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=24 --launch-time-ticks=859923559 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,17012797439457999386,7359883041438337888,131072
+root        7908  0.0  0.0      0     0 ?        I    11:26   0:01 [kworker/7:1-events]
+yury        8014  0.0  0.6 1085312 49056 ?       Sl   11:28   0:00 /snap/skype/211/usr/share/skypeforlinux/skypeforlinux --type=utility --utility-sub-type=audio.mojom.AudioService --field-trial-handle=18038649790817377007,15678908163980401270,131072 --disable-features=SpareRendererForSitePerProcess --lang=en-GB --service-sandbox-type=none --enable-crashpad --crashpad-handler-pid=6419 --enable-crash-reporter=d752c99a-29ba-4bf9-b3b2-a2130342f2ec,no_channel --user-data-dir=/home/yury/snap/skype/211/.config/skypeforlinux --shared-files=v8_context_snapshot_data:100
+yury        8381  0.0  1.1 25706876 89800 ?      Sl   11:37   0:00 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=7137 --enable-crash-reporter=, --disable-client-side-phishing-detection --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=86 --launch-time-ticks=1500094910 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,17012797439457999386,7359883041438337888,131072
+yury        8450  0.1  2.3 25719500 185176 ?     Sl   11:40   0:06 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=7137 --enable-crash-reporter=, --disable-client-side-phishing-detection --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=16 --launch-time-ticks=1684617074 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,17012797439457999386,7359883041438337888,131072
+yury        8507  3.9  2.4 29949036 192592 ?     Sl   11:40   2:17 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=7137 --enable-crash-reporter=, --disable-client-side-phishing-detection --display-capture-permissions-policy-allowed --change-stack-guard-on-fork=enable --lang=en-GB --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=14 --launch-time-ticks=1703157826 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,17012797439457999386,7359883041438337888,131072
+root        8557  0.0  0.0      0     0 ?        I    11:40   0:00 [kworker/2:2-events]
+root        8726  0.0  0.0      0     0 ?        I    11:42   0:00 [kworker/4:1-events]
+yury        8836  1.1  0.7 573884 61204 ?        Ssl  11:44   0:37 /usr/libexec/gnome-terminal-server
+yury        8855  0.0  0.0  23728  6840 pts/0    Ss   11:44   0:00 bash
+root        8912  0.7  0.0      0     0 ?        D<   11:46   0:21 [kworker/u17:2+i915_flip]
+root        9085  0.0  0.0      0     0 ?        I    11:55   0:00 [kworker/0:0]
+yury        9265  0.0  0.0  46956  7028 ?        Ss   12:01   0:00 /usr/lib/bluetooth/obexd
+root        9284  0.0  0.0      0     0 ?        I    12:01   0:00 [kworker/1:0-events]
+yury        9304  0.1  0.9 813052 75504 ?        Sl   12:02   0:02 /usr/bin/nautilus --gapplication-service
+root        9339  0.0  0.0      0     0 ?        I    12:03   0:01 [kworker/6:2-events]
+root        9459  0.0  0.0      0     0 ?        I    12:08   0:01 [kworker/u16:1-i915]
+root        9499  0.0  0.0      0     0 ?        I    12:11   0:00 [kworker/3:0-events]
+root        9602  0.0  0.0      0     0 ?        I    12:14   0:00 [kworker/1:1-events]
+yury        9688  0.0  0.0   8076  5784 ?        S    12:18   0:00 /usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ssh
+root        9761  0.0  0.0      0     0 ?        I    12:23   0:00 [kworker/u16:3-flush-8:0]
+root        9890  0.0  0.0      0     0 ?        I<   12:28   0:00 [kworker/u17:1]
+root        9917  0.0  0.0      0     0 ?        I    12:28   0:00 [kworker/3:2-mm_percpu_wq]
+root        9984  0.0  0.0      0     0 ?        I    12:30   0:00 [kworker/u16:0-flush-8:0]
+root        9992  0.0  0.0      0     0 ?        I    12:30   0:00 [kworker/7:2]
+root       10158  0.0  0.0      0     0 ?        I    12:36   0:00 [kworker/3:1-events]
+root       10164  0.0  0.0      0     0 ?        I    12:37   0:00 [kworker/u16:2-flush-8:0]
+yury       10193  0.0  0.0  21156  3756 pts/0    S+   12:38   0:00 /bin/bash ./processes.sh
+yury       10194  0.0  0.0  23872  3672 pts/0    R+   12:38   0:00 ps aux
